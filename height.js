@@ -118,31 +118,31 @@ document.getElementById("mySubmit").onclick = function(){
 
    if (robertwadlow>input) {
     let a = robertwadlow/input;
-    document.getElementById("robertwadlow").textContent = `Robert Wadlow 🇺🇸 is ${a.toFixed(2)} times taller than you! (${robertwadlow}m)`;
+    document.getElementById("robertwadlow").textContent = `Robert Wadlow 🇺🇸 (The Tallest ever person) is ${a.toFixed(2)} times taller than you! (${robertwadlow}m)`;
   } else if (robertwadlow<input) {
     let a = input/robertwadlow;
-    document.getElementById("robertwadlow").textContent = `Robert Wadlow 🇺🇸 is ${a.toFixed(2)} times smaller than you! (${robertwadlow}m)`;
+    document.getElementById("robertwadlow").textContent = `Robert Wadlow 🇺🇸 (The Tallest ever person) is ${a.toFixed(2)} times smaller than you! (${robertwadlow}m)`;
   } else {
-    document.getElementById("robertwadlow").textContent = `Your height is equal to that of Robert Wadlow! 🇺🇸 (${robertwadlow}m)` ;
+    document.getElementById("robertwadlow").textContent = `Your height is equal to that of Robert Wadlow! 🇺🇸 (The Tallest ever person) (${robertwadlow}m)` ;
   }
 
    if (chandra>input) {
     let a = chandra/input;
-    document.getElementById("chandra").textContent = `Chandra Bahadur Dangi 🇳🇵 is ${a.toFixed(2)} times taller than you! (${chandra}m)`;
+    document.getElementById("chandra").textContent = `Chandra Bahadur Dangi 🇳🇵 (The shortest ever person) is ${a.toFixed(2)} times taller than you! (${chandra}m)`;
   } else if (chandra<input) {
     let a = input/chandra;
-    document.getElementById("chandra").textContent = `Chandra Bahadur Dangi 🇳🇵 is ${a.toFixed(2)} times smaller than you! (${chandra}m)`;
+    document.getElementById("chandra").textContent = `Chandra Bahadur Dangi 🇳🇵 (The shortest ever person) is ${a.toFixed(2)} times smaller than you! (${chandra}m)`;
   } else {
-    document.getElementById("chandra").textContent = `Your height is equal to that of Chandra Bahadur Dangi! 🇳🇵 (${chandra}m)` ;
+    document.getElementById("chandra").textContent = `Your height is equal to that of Chandra Bahadur Dangi! 🇳🇵 (The shortest ever person) (${chandra}m)` ;
   }
 
    if (sultan>input) {
     let a = sultan/input;
-    document.getElementById("sultan").textContent = ` Sultan Kösen 🇹🇷 is ${a.toFixed(2)} times taller than you! (${sultan}m)`;
+    document.getElementById("sultan").textContent = ` Sultan Kösen 🇹🇷 (the Current World's Tallest Person) is ${a.toFixed(2)} times taller than you! (${sultan}m)`;
   } else if (sultan<input) {
     let a = input/sultan;
-    document.getElementById("sultan").textContent = ` Sultan Kösen 🇹🇷 is ${a.toFixed(2)} times smaller than you! (${sultan}m)`;
+    document.getElementById("sultan").textContent = ` Sultan Kösen 🇹🇷 (the Current World's Tallest Person) is ${a.toFixed(2)} times smaller than you!  (${sultan}m)`;
   } else {
-    document.getElementById("sultan").textContent = `Your height is equal to that of Sultan Kösen! 🇹🇷 (${sultan}m)` ;
+    document.getElementById("sultan").textContent = `Your height is equal to that of Sultan Kösen! 🇹🇷 (the Current World's Tallest Person) (${sultan}m)` ;
   }
 }
